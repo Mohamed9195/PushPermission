@@ -5,12 +5,12 @@ spec.name         = "PushPermission"
 spec.version      = "0.0.1"
 spec.summary      = "Take all permission, and get any change to happen in it."
 spec.description  = "using push protocol to get any update in permissions when calling framework object one time, and can use Push RXPermission View to show all permission."
-spec.homepage     = "https://github.com/Mohamed9195/PushRXPermission"
+spec.homepage     = "https://github.com/Mohamed9195/PushPermission"
 spec.license      = "MIT"
 spec.authors      = { "Mohamed Hashem" => "mohamedabdalwahab588@gmail.com" }
 spec.platform     = :ios, "12.0"
 spec.ios.deployment_target = "12.0"
-spec.source       = { :git => "https://github.com/Mohamed9195/PushRXPermission.git", :tag => "#{spec.version}" }
+spec.source       = { :git => "https://github.com/Mohamed9195/PushPermission.git", :tag => "#{spec.version}" }
 spec.source_files  = "PushPermission"
 spec.exclude_files = "Classes/Exclude"
 spec.resources  = "PushPermission/*.{xib,png}"
