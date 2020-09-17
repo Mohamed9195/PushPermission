@@ -44,7 +44,7 @@ private extension NibView {
 public extension UIView {
     func loadNib() -> UIView {
         let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "PushPermissionView", bundle: bundle)
+        let nib = UINib(nibName: "PushPermission", bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
 }
