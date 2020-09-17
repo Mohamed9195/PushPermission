@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7D34A1142513B17B002DBFE7 /* PushPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D34A1122513B17B002DBFE7 /* PushPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D34A11B2513B266002DBFE7 /* PushPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34A11A2513B266002DBFE7 /* PushPermission.swift */; };
+		7D34A11D2513B272002DBFE7 /* PushPermission.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A11C2513B271002DBFE7 /* PushPermission.xib */; };
+		7D34A1222513B2BD002DBFE7 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A11E2513B2BD002DBFE7 /* bluetooth.png */; };
+		7D34A1232513B2BD002DBFE7 /* i-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A11F2513B2BD002DBFE7 /* i-camera.png */; };
+		7D34A1242513B2BD002DBFE7 /* notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A1202513B2BD002DBFE7 /* notification.png */; };
+		7D34A1252513B2BD002DBFE7 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A1212513B2BD002DBFE7 /* location.png */; };
+		7D34A1272513B378002DBFE7 /* RXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34A1262513B378002DBFE7 /* RXPermissions.swift */; };
+		A222363F31344096E7F1A385 /* Pods_PushPermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92265547BE5B2194C95134C /* Pods_PushPermission.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46772F6D33492D03A7D12E65 /* Pods-PushPermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushPermission.release.xcconfig"; path = "Target Support Files/Pods-PushPermission/Pods-PushPermission.release.xcconfig"; sourceTree = "<group>"; };
 		7D34A10F2513B17B002DBFE7 /* PushPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PushPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D34A1122513B17B002DBFE7 /* PushPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushPermission.h; sourceTree = "<group>"; };
 		7D34A1132513B17B002DBFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D34A11A2513B266002DBFE7 /* PushPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPermission.swift; sourceTree = "<group>"; };
+		7D34A11C2513B271002DBFE7 /* PushPermission.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushPermission.xib; sourceTree = "<group>"; };
+		7D34A11E2513B2BD002DBFE7 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth.png; sourceTree = "<group>"; };
+		7D34A11F2513B2BD002DBFE7 /* i-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-camera.png"; sourceTree = "<group>"; };
+		7D34A1202513B2BD002DBFE7 /* notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification.png; sourceTree = "<group>"; };
+		7D34A1212513B2BD002DBFE7 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		7D34A1262513B378002DBFE7 /* RXPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXPermissions.swift; sourceTree = "<group>"; };
+		E22FDD852C8C46FB7348C66D /* Pods-PushPermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushPermission.debug.xcconfig"; path = "Target Support Files/Pods-PushPermission/Pods-PushPermission.debug.xcconfig"; sourceTree = "<group>"; };
+		F92265547BE5B2194C95134C /* Pods_PushPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A222363F31344096E7F1A385 /* Pods_PushPermission.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126678D2B4736BDDB651D063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92265547BE5B2194C95134C /* Pods_PushPermission.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4493A03965957C5896261038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22FDD852C8C46FB7348C66D /* Pods-PushPermission.debug.xcconfig */,
+				46772F6D33492D03A7D12E65 /* Pods-PushPermission.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D34A1052513B17B002DBFE7 = {
 			isa = PBXGroup;
 			children = (
 				7D34A1112513B17B002DBFE7 /* PushPermission */,
 				7D34A1102513B17B002DBFE7 /* Products */,
+				4493A03965957C5896261038 /* Pods */,
+				126678D2B4736BDDB651D063 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +86,13 @@
 			children = (
 				7D34A1122513B17B002DBFE7 /* PushPermission.h */,
 				7D34A1132513B17B002DBFE7 /* Info.plist */,
+				7D34A11A2513B266002DBFE7 /* PushPermission.swift */,
+				7D34A11C2513B271002DBFE7 /* PushPermission.xib */,
+				7D34A11E2513B2BD002DBFE7 /* bluetooth.png */,
+				7D34A11F2513B2BD002DBFE7 /* i-camera.png */,
+				7D34A1212513B2BD002DBFE7 /* location.png */,
+				7D34A1202513B2BD002DBFE7 /* notification.png */,
+				7D34A1262513B378002DBFE7 /* RXPermissions.swift */,
 			);
 			path = PushPermission;
 			sourceTree = "<group>";
@@ -70,6 +115,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D34A1172513B17B002DBFE7 /* Build configuration list for PBXNativeTarget "PushPermission" */;
 			buildPhases = (
+				3BE91DEC15B55E4C76B50C78 /* [CP] Check Pods Manifest.lock */,
 				7D34A10A2513B17B002DBFE7 /* Headers */,
 				7D34A10B2513B17B002DBFE7 /* Sources */,
 				7D34A10C2513B17B002DBFE7 /* Frameworks */,
@@ -95,6 +141,7 @@
 				TargetAttributes = {
 					7D34A10E2513B17B002DBFE7 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -121,16 +168,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D34A1222513B2BD002DBFE7 /* bluetooth.png in Resources */,
+				7D34A1232513B2BD002DBFE7 /* i-camera.png in Resources */,
+				7D34A1252513B2BD002DBFE7 /* location.png in Resources */,
+				7D34A1242513B2BD002DBFE7 /* notification.png in Resources */,
+				7D34A11D2513B272002DBFE7 /* PushPermission.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE91DEC15B55E4C76B50C78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushPermission-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D34A10B2513B17B002DBFE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D34A1272513B378002DBFE7 /* RXPermissions.swift in Sources */,
+				7D34A11B2513B266002DBFE7 /* PushPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +338,9 @@
 		};
 		7D34A1182513B17B002DBFE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22FDD852C8C46FB7348C66D /* Pods-PushPermission.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JNP78QVJKX;
@@ -276,6 +357,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MH.PushPermission;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,7 +366,9 @@
 		};
 		7D34A1192513B17B002DBFE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46772F6D33492D03A7D12E65 /* Pods-PushPermission.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JNP78QVJKX;
@@ -300,6 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MH.PushPermission;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
