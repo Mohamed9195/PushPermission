@@ -9,7 +9,7 @@
 import RxSwift
 import RxCocoa
 
-enum Service {
+public enum Service {
     case bluetooth
     case notification
     case location
@@ -17,7 +17,7 @@ enum Service {
     case photoLibrary
 }
 
-enum ServiceStatus {
+public enum ServiceStatus {
     case enabled
     case disabled
     case notAuthorized
@@ -32,7 +32,7 @@ open class RXPermissions {
     private let photoLibraryServiceManager = PhotoLibraryManager()
     private let cameraServiceManager = CameraManager()
 
-    func observe(services: Service...) -> Observable<(service: Service, status: ServiceStatus)> {
+    public func observe(services: Service...) -> Observable<(service: Service, status: ServiceStatus)> {
 
         var observables = [Observable<(service: Service, status: ServiceStatus)>]()
 
