@@ -32,6 +32,10 @@ open class RXPermissions {
     private let photoLibraryServiceManager = PhotoLibraryManager()
     private let cameraServiceManager = CameraManager()
 
+    public init() {
+
+    }
+    
     public func observe(services: Service...) -> Observable<(service: Service, status: ServiceStatus)> {
 
         var observables = [Observable<(service: Service, status: ServiceStatus)>]()
