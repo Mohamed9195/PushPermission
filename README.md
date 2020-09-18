@@ -1,5 +1,5 @@
 # PushPermission
-using push protocol to get any update in permissions when calling framework object one time, and can use Push RXPermission View to show all permission.
+using push protocol to get any update in permissions when calling framework objects one time using RXSwift with RXCocoa, and can use Push RXPermission View to show all permission. 
 
 # Installation
 pod 'PushPermission', :git => 'https://github.com/Mohamed9195/PushPermission.git', :tag => '0.0.5'
@@ -16,8 +16,8 @@ import PushPermission
 
 let serviceStatusManager: RXPermissions = RXPermissions()
 
- serviceStatusManager.observe(services:
-            .bluetooth,.camera,.location,.notification,.photoLibrary)
+serviceStatusManager.observe(services: .bluetooth, .camera, .location, .notification, .photoLibrary)
+// or serviceStatusManager.observe(services: .bluetooth) add any permission you need use it
             .debug("serviceStatusManager")
             .subscribe(onNext: { (output: (service: Service, status: ServiceStatus)) in
                 switch output.service {
