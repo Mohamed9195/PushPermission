@@ -15,6 +15,11 @@
 		7D34A1242513B2BD002DBFE7 /* notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A1202513B2BD002DBFE7 /* notification.png */; };
 		7D34A1252513B2BD002DBFE7 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D34A1212513B2BD002DBFE7 /* location.png */; };
 		7D34A1272513B378002DBFE7 /* RXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34A1262513B378002DBFE7 /* RXPermissions.swift */; };
+		7DD5E40C2514C137001EB6F7 /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5E40B2514C137001EB6F7 /* LocationServiceManager.swift */; };
+		7DD5E40E2514C65A001EB6F7 /* BluetoothServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5E40D2514C65A001EB6F7 /* BluetoothServiceManger.swift */; };
+		7DD5E4102514C682001EB6F7 /* PushNotificationServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5E40F2514C682001EB6F7 /* PushNotificationServiceManger.swift */; };
+		7DD5E4122514C6BA001EB6F7 /* CameraServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5E4112514C6BA001EB6F7 /* CameraServiceManger.swift */; };
+		7DD5E4142514C6D3001EB6F7 /* PhotoLibraryServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5E4132514C6D3001EB6F7 /* PhotoLibraryServiceManger.swift */; };
 		A222363F31344096E7F1A385 /* Pods_PushPermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92265547BE5B2194C95134C /* Pods_PushPermission.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,11 @@
 		7D34A1202513B2BD002DBFE7 /* notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification.png; sourceTree = "<group>"; };
 		7D34A1212513B2BD002DBFE7 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
 		7D34A1262513B378002DBFE7 /* RXPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXPermissions.swift; sourceTree = "<group>"; };
+		7DD5E40B2514C137001EB6F7 /* LocationServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
+		7DD5E40D2514C65A001EB6F7 /* BluetoothServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothServiceManger.swift; sourceTree = "<group>"; };
+		7DD5E40F2514C682001EB6F7 /* PushNotificationServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationServiceManger.swift; sourceTree = "<group>"; };
+		7DD5E4112514C6BA001EB6F7 /* CameraServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraServiceManger.swift; sourceTree = "<group>"; };
+		7DD5E4132514C6D3001EB6F7 /* PhotoLibraryServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryServiceManger.swift; sourceTree = "<group>"; };
 		E22FDD852C8C46FB7348C66D /* Pods-PushPermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushPermission.debug.xcconfig"; path = "Target Support Files/Pods-PushPermission/Pods-PushPermission.debug.xcconfig"; sourceTree = "<group>"; };
 		F92265547BE5B2194C95134C /* Pods_PushPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +103,11 @@
 				7D34A1212513B2BD002DBFE7 /* location.png */,
 				7D34A1202513B2BD002DBFE7 /* notification.png */,
 				7D34A1262513B378002DBFE7 /* RXPermissions.swift */,
+				7DD5E40B2514C137001EB6F7 /* LocationServiceManager.swift */,
+				7DD5E40D2514C65A001EB6F7 /* BluetoothServiceManger.swift */,
+				7DD5E40F2514C682001EB6F7 /* PushNotificationServiceManger.swift */,
+				7DD5E4112514C6BA001EB6F7 /* CameraServiceManger.swift */,
+				7DD5E4132514C6D3001EB6F7 /* PhotoLibraryServiceManger.swift */,
 			);
 			path = PushPermission;
 			sourceTree = "<group>";
@@ -208,6 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD5E4142514C6D3001EB6F7 /* PhotoLibraryServiceManger.swift in Sources */,
+				7DD5E4122514C6BA001EB6F7 /* CameraServiceManger.swift in Sources */,
+				7DD5E40E2514C65A001EB6F7 /* BluetoothServiceManger.swift in Sources */,
+				7DD5E4102514C682001EB6F7 /* PushNotificationServiceManger.swift in Sources */,
+				7DD5E40C2514C137001EB6F7 /* LocationServiceManager.swift in Sources */,
 				7D34A1272513B378002DBFE7 /* RXPermissions.swift in Sources */,
 				7D34A11B2513B266002DBFE7 /* PushPermission.swift in Sources */,
 			);
